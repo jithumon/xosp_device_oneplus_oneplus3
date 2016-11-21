@@ -20,12 +20,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/oneplus/oneplus3/device.mk)
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/xosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/xosp/config/xosp.mk)
 
-PRODUCT_NAME := cm_oneplus3
+PRODUCT_NAME := xosp_oneplus3
 PRODUCT_DEVICE := oneplus3
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
+IS_ARM64 := TRUE
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
