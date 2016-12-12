@@ -4,7 +4,7 @@
    "target_path": "device/oppo/common"
  },
  {
-   "repository": "android_vendor_oneplus",
+   "repository": "proprietary_vendor_oneplus",
    "target_path": "vendor/oneplus"
  }
 ]
